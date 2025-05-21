@@ -1,1 +1,55 @@
-<p>donate works!</p>
+<form (ngSubmit)="registerDonation()" #donationForm="ngForm" class="donation-form">
+  <div class="form-group">
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>{{ 'Donate.donorId' | translate }}</mat-label>
+      <input matInput type="text" name="donorId" [(ngModel)]="donation.donorId" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>{{ 'Donate.campaign' | translate }}</mat-label>
+      <mat-select name="campaignId" [(ngModel)]="donation.campaignId" (selectionChange)="onCampaignChange($event)" required>
+        <mat-option *ngFor="let campaign of campaigns" [value]="campaign.id">
+          {{ campaign.id }} - {{ campaign.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="form-group">
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>{{ 'Donate.itemType' | translate }}</mat-label>
+      <mat-select name="item" [(ngModel)]="donation.item" required>
+        <mat-option *ngFor="let item of acceptedItems" [value]="item">
+          {{ item }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>{{ 'Donate.quantity' | translate }}</mat-label>
+      <input matInput type="number" name="quantity" [(ngModel)]="donation.quantity" min="1" required />
+    </mat-form-field>
+  </div>
+
+  <div class="form-group">
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>{{ 'Donate.condition' | translate }}</mat-label>
+      <mat-select name="condition" [(ngModel)]="donation.condition" required>
+        <mat-option value="New">{{ 'Donate.new' | translate }}</mat-option>
+        <mat-option value="Used">{{ 'Donate.used' | translate }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="error-message">
+    {{ errorMessage | translate }}
+  </div>
+
+  <div class="success-message">
+    {{ successMessage | translate}}
+  </div>
+
+  <div class="form-actions">
+    <button mat-raised-button color="primary" type="submit" [disabled]="!donationForm.valid">{{ 'Donate.button' | translate }}</button>
+  </div>
+</form>

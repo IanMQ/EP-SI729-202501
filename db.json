@@ -1,116 +1,164 @@
 {
   "campaigns": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-SanMiguel",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets"]
+      "targetItems": [
+        "Jackets",
+        "Blankets"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-SanMiguel",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets", "Pants"]
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-SanIsidro",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets", "Pants"]
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-SanIsidro",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets"]
+      "targetItems": [
+        "Jackets",
+        "Blankets"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-Monterrico",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets", "Pants"]
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-Monterrico",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets", "Pants"]
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Keep Warm Keep Well",
       "location": "Peru-Lima-SanMiguel",
       "startDate": "2025-03-01",
       "endDate": "2025-03-07",
-      "targetItems": ["Jackets", "Blankets", "Pants", "Shoes"]
+      "targetItems": [
+        "Jackets",
+        "Blankets",
+        "Pants",
+        "Shoes"
+      ]
     }
   ],
   "donors": [
     {
-      "id": 1,
+      "id": "1",
       "firstName": "Juan",
       "lastName": "Perez",
-      "contact": ["juanp@email.com", "519674244450"],
+      "contact": [
+        "juanp@email.com",
+        "519674244450"
+      ],
       "totalDonations": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "firstName": "Pedro",
       "lastName": "García",
-      "contact": ["pedrog@email.com", "519674264450"],
+      "contact": [
+        "pedrog@email.com",
+        "519674264450"
+      ],
       "totalDonations": 4
     },
     {
-      "id": 3,
+      "id": "3",
       "firstName": "María",
       "lastName": "Cuellar",
-      "contact": ["mariac@email.com", "519674734450"],
+      "contact": [
+        "mariac@email.com",
+        "519674734450"
+      ],
       "totalDonations": 7
     },
     {
-      "id": 4,
+      "id": "4",
       "firstName": "Miriam",
       "lastName": "Ruiz",
-      "contact": ["miriamr@email.com", "519674284450"],
+      "contact": [
+        "miriamr@email.com",
+        "519674284450"
+      ],
       "totalDonations": 4
     },
     {
-      "id": 5,
+      "id": "5",
       "firstName": "Luis",
       "lastName": "Fernadez",
-      "contact": ["luisf@email.com", "519674237450"],
+      "contact": [
+        "luisf@email.com",
+        "519674237450"
+      ],
       "totalDonations": 6
     },
     {
-      "id": 6,
+      "id": "6",
       "firstName": "Pedro",
       "lastName": "Alcazar",
-      "contact": ["pedroa@email.com", "519774234450"],
+      "contact": [
+        "pedroa@email.com",
+        "519774234450"
+      ],
       "totalDonations": 9
     },
     {
-      "id": 7,
+      "id": "7",
       "firstName": "Mario",
       "lastName": "Trelles",
-      "contact": ["mariot@email.com", "519674239450"],
+      "contact": [
+        "mariot@email.com",
+        "519674239450"
+      ],
       "totalDonations": 12
     }
   ],
   "donations": [
     {
-      "id": 1,
+      "id": "1",
       "donorId": 1,
       "campaignId": 1,
       "itemType": "Jacket",
@@ -118,7 +166,7 @@
       "condition": "New"
     },
     {
-      "id": 2,
+      "id": "2",
       "donorId": 2,
       "campaignId": 2,
       "itemType": "Pants",
@@ -126,7 +174,7 @@
       "condition": "New"
     },
     {
-      "id": 3,
+      "id": "3",
       "donorId": 3,
       "campaignId": 3,
       "itemType": "Blankets",
@@ -134,7 +182,7 @@
       "condition": "New"
     },
     {
-      "id": 4,
+      "id": "4",
       "donorId": 4,
       "campaignId": 4,
       "itemType": "Jacket",
@@ -142,7 +190,7 @@
       "condition": "New"
     },
     {
-      "id": 5,
+      "id": "5",
       "donorId": 5,
       "campaignId": 5,
       "itemType": "Blankets",
@@ -150,7 +198,7 @@
       "condition": "New"
     },
     {
-      "id": 6,
+      "id": "6",
       "donorId": 6,
       "campaignId": 6,
       "itemType": "Jacket",
@@ -158,10 +206,50 @@
       "condition": "New"
     },
     {
-      "id": 7,
+      "id": "7",
       "donorId": 1,
       "campaignId": 7,
       "itemType": "Pants",
+      "quantity": 1,
+      "condition": "New"
+    },
+    {
+      "id": "c8c9",
+      "donorId": "1",
+      "campaignId": "2",
+      "item": "Jackets",
+      "quantity": 12,
+      "condition": "New"
+    },
+    {
+      "id": "4983",
+      "donorId": "1",
+      "campaignId": "1",
+      "item": "Jackets",
+      "quantity": 1,
+      "condition": "New"
+    },
+    {
+      "id": "a9a8",
+      "donorId": "2",
+      "campaignId": "1",
+      "item": "Jackets",
+      "quantity": 1,
+      "condition": "New"
+    },
+    {
+      "id": "552b",
+      "donorId": "2",
+      "campaignId": "2",
+      "item": "Jackets",
+      "quantity": 1,
+      "condition": "New"
+    },
+    {
+      "id": "f86f",
+      "donorId": "2",
+      "campaignId": "2",
+      "item": "Jackets",
       "quantity": 1,
       "condition": "New"
     }

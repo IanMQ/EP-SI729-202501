@@ -26,4 +26,12 @@ export class RecidarService {
     return this.http.get<any>(`${this.apiUrl}donations?campaignId=${campaignId}`);
   }
 
+  createDonation(donation: any) {
+    return this.http.post<any>(this.apiUrl + 'donations', donation);
+  }
+
+  authenticateDonorbyId(donorId: string) {
+    return this.http.get<any>(`${this.apiUrl}donors/${donorId}`);
+  }
+
 }

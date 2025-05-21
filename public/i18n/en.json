@@ -18,5 +18,17 @@
     "end": "End Date",
     "items": "Target Items",
     "goal": "Collected Units vs Goal"
+  },
+  "Donate": {
+    "success": "Thank you! Your donation could save lives.",
+    "errorDonor": "Invalid Donor",
+    "button": "Register Donation",
+    "donorId": "Donor ID",
+    "campaign": "Campaign",
+    "itemType": "Item Type",
+    "quantity": "Quantity",
+    "condition": "Condition",
+    "new": "New",
+    "used": "Used"
   }
 }

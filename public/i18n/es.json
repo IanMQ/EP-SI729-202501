@@ -18,5 +18,17 @@
     "end": "Fecha de finalización",
     "items": "Artículos Requeridos",
     "goal": "N° unidades recolectadas vs meta"
+  },
+  "Donate": {
+    "success": "¡Gracias! Tu donación puede salvar vidas.",
+    "errorDonor": "Donante inválido",
+    "button": "Registrar donación",
+    "donorId": "ID del donante",
+    "campaign": "Campaña",
+    "itemType": "Tipo de artículo",
+    "quantity": "Cantidad",
+    "condition": "Condición",
+    "new": "Nuevo",
+    "used": "Usado"
   }
 }
