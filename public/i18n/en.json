@@ -12,5 +12,11 @@
   "Home": {
     "title": "Recidar: Fighting Cold with Kindness",
     "subtitle": "Active Campaigns"
+  },
+  "Campaign": {
+    "start": "Start Date",
+    "end": "End Date",
+    "items": "Target Items",
+    "goal": "Collected Units vs Goal"
   }
 }

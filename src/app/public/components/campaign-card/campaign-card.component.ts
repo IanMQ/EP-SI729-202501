@@ -1,4 +1,4 @@
-import { Component,Input } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {
   MatCard,
   MatCardContent,
@@ -8,6 +8,9 @@ import {
   MatCardTitle
 } from '@angular/material/card';
 import {Campaign} from '../../models/campaign.model';
+import {MatAnchor} from '@angular/material/button';
+import {TranslatePipe} from '@ngx-translate/core';
+import {RecidarService} from '../../../shared/services/recidar.service';
 
 @Component({
   selector: 'app-campaign-card',
@@ -18,12 +21,23 @@ import {Campaign} from '../../models/campaign.model';
     MatCardContent,
     MatCardTitle,
     MatCardSubtitle,
+    MatAnchor,
+    TranslatePipe,
 
   ],
   templateUrl: './campaign-card.component.html',
   styleUrl: './campaign-card.component.css'
 })
-export class CampaignCardComponent {
-  @Input() campaign!: Campaign; // Recibe un objeto Campaign
+export class CampaignCardComponent implements OnInit {
+  @Input() campaign!: Campaign;
 
+  donationsNumber: number = 0;
+
+  constructor(private recidarService: RecidarService) {}
+
+  ngOnInit(): void {
+    this.recidarService.getDonationsByCampaignId(this.campaign.id).subscribe((donations: any[]) => {
+      this.donationsNumber = donations.length;
+    });
+  }
 }

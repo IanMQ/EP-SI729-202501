@@ -22,4 +22,8 @@ export class RecidarService {
     return this.http.get<any>(this.apiUrl + 'donations');
   }
 
+  getDonationsByCampaignId(campaignId: string) {
+    return this.http.get<any>(`${this.apiUrl}donations?campaignId=${campaignId}`);
+  }
+
 }

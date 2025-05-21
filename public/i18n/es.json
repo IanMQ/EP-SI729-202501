@@ -12,5 +12,11 @@
   "Home": {
     "title": "Recidar: Luchando contra el frío con amabilidad",
     "subtitle": "Campañas activas"
+  },
+  "Campaign": {
+    "start": "Fecha de inicio",
+    "end": "Fecha de finalización",
+    "items": "Artículos Requeridos",
+    "goal": "N° unidades recolectadas vs meta"
   }
 }
