@@ -1,0 +1,16 @@
+{
+  "PageNotFound": {
+    "title": "Página no encontrada",
+    "url": "/ruta-inexistente",
+    "description": "La página que estás buscando no existe o ha sido eliminada.",
+    "backToHome": "Volver a la página de inicio"
+  },
+  "Header": {
+    "home": "Inicio",
+    "donate": "Donar"
+  },
+  "Home": {
+    "title": "Recidar: Luchando contra el frío con amabilidad",
+    "subtitle": "Campañas activas"
+  }
+}

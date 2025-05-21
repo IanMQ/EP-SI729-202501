@@ -1,0 +1,16 @@
+{
+  "PageNotFound": {
+    "title": "Page Not Found",
+    "url": "/non-existent-page",
+    "description": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home"
+  },
+  "Header": {
+    "home": "Home",
+    "donate": "Donate"
+  },
+  "Home": {
+    "title": "Recidar: Fighting Cold with Kindness",
+    "subtitle": "Active Campaigns"
+  }
+}

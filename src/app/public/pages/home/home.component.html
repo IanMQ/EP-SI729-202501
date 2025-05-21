@@ -1,0 +1,14 @@
+<div class="home-container">
+  <header class="home-header">
+    <h1>{{ 'Home.title' | translate }}</h1>
+    <h2>{{ 'Home.subtitle' | translate }}</h2>
+  </header>
+
+  <section class="campaigns-section">
+    <mat-grid-list cols="2" rowHeight="1:1" gutterSize="16px">
+      <mat-grid-tile *ngFor="let campaign of campaigns">
+        <app-campaign-card [campaign]="campaign"></app-campaign-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </section>
+</div>

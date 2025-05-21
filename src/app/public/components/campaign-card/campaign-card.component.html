@@ -1,0 +1,16 @@
+<mat-card class="campaign-card">
+  <mat-card-header>
+    <mat-card-title>{{ campaign.name }}</mat-card-title>
+    <mat-card-subtitle>{{ campaign.location }}</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p><strong>Fecha Inicio:</strong> {{ campaign.startDate }}</p>
+    <p><strong>Fecha Fin:</strong> {{ campaign.endDate }}</p>
+    <p><strong>Prendas Requeridas:</strong> {{ campaign.targetItems.join(', ') }}</p>
+  </mat-card-content>
+
+  <mat-card-footer>
+    <p class="status">Estado: Online</p>
+  </mat-card-footer>
+</mat-card>

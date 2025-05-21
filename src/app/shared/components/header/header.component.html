@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <!-- Izquierda: Logo y texto -->
+  <div class="toolbar-left">
+    <img src="https://img.logo.dev/recidar.pe?token=pk_MXIiuI8gTK20IdF-a-SOqg&retina=true" alt="Recidar Logo" class="logo" />
+    <span class="app-title">Recidar</span>
+  </div>
+
+  <!-- Centro: Opciones de navegación -->
+  <div class="toolbar-center">
+    <a mat-button routerLink="/home">{{'Header.home'| translate}}</a>
+    <a mat-button routerLink="/engagement/donations/new">{{'Header.donate'| translate}}</a>
+  </div>
+
+  <!-- Derecha: Toggle de idioma -->
+  <div class="toolbar-right">
+    <app-language-selector></app-language-selector>
+  </div>
+</mat-toolbar>
