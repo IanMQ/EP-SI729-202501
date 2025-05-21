@@ -8,7 +8,11 @@ import {MatOption} from '@angular/material/core';
 import {MatButton} from '@angular/material/button';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 
-
+/**
+ * @summary Componente para gestionar el registro de donaciones en la aplicación.
+ * Permite a los usuarios seleccionar campañas, artículos y registrar donaciones.
+ * @author Ian MQ
+ */
 @Component({
   selector: 'app-donate',
   imports: [

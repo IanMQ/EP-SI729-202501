@@ -4,6 +4,13 @@ import {TranslateService} from '@ngx-translate/core';
 import {MatButtonToggle, MatButtonToggleGroup} from '@angular/material/button-toggle';
 import {NgForOf} from '@angular/common';
 
+
+/**
+ * @summary Componente para gestionar la selección de idioma en la aplicación.
+ * Permite a los usuarios cambiar entre los idiomas disponibles utilizando un grupo de botones de alternancia (toggle buttons).
+ * Actualiza dinámicamente el idioma de la aplicación mediante el servicio de traducción (`TranslateService` de `ngx-translate`).
+ * @author Ian MQ
+ */
 @Component({
   selector: 'app-language-selector',
   imports: [

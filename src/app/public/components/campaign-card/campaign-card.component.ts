@@ -12,6 +12,11 @@ import {MatAnchor} from '@angular/material/button';
 import {TranslatePipe} from '@ngx-translate/core';
 import {RecidarService} from '../../../shared/services/recidar.service';
 
+/**
+ * @summary Componente para mostrar información detallada de una campaña específica en una tarjeta.
+ * Incluye datos como nombre, ubicación, fechas y artículos requeridos, además del progreso de donaciones recolectadas frente a la meta establecida por campaña.
+ * @author Ian MQ
+ */
 @Component({
   selector: 'app-campaign-card',
   imports: [

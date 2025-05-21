@@ -7,6 +7,11 @@ import {CampaignCardComponent} from '../../components/campaign-card/campaign-car
 import {Campaign} from '../../models/campaign.model';
 import {RecidarService} from '../../../shared/services/recidar.service';
 
+/**
+ * @summary Componente para mostrar la lista de campañas activas en la página de inicio de la aplicación.
+ * Obtiene las campañas desde el servicio y las muestra en un diseño de cuadrícula utilizando tarjetas de campaña.
+ * @author Ian MQ
+ */
 @Component({
   selector: 'app-home',
   imports: [
